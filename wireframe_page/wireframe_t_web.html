@@ -5,130 +5,159 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wireframe Tecnologias Web</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <header>
-        <p>TWEB</p>
-        <nav>
-            <a href="#">home</a>
-            <a href="#">módulos</a>
-            <a href="#">planos</a>
-            <a href="#">time</a>
-            <a href="#">contato</a>
-        </nav>
-    </header>
+    <div id="container_header">
+        <header>
+            <p>TWEB</p>
+            <nav>
+                <a href="#">home</a>
+                <a href="#">módulos</a>
+                <a href="#">planos</a>
+                <a href="#">time</a>
+                <a href="#">contato</a>
+            </nav>
+        </header>
+    </div>
     <main>
         <section id="inicio">
-            <h1>Wireframe Tecnologias Web</h1>
-            <p>Acesse o conteúdo principal do nosso site.</p>
-            <button>Acessar</button>
+            <div id="acesso">
+                <p id="bem_vindo">Bem-vinde! 👋</p>
+                <h1>Wireframe</h1>
+                <h1>Tecnologias Web</h1>
+                <button>Acessar</button>
+                <p id="scroll">↓ SCROLL TO MORE</p>
+            </div>
             <img src="assets/moça no computador.png" alt="Descrição da imagem principal do site">
         </section>
         <section id="modulos">
-            <h2>Módulos do curso</h2>
-            <p>There are many reasons to get down and start to get depressed about your situation</p>
-            <ul>
-                <li>
-                    <h2>Introdução ao HTML</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, exercitationem.</p>
-                </li>
-                <li>
-                    <h2>Estrutura do HTML</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, exercitationem.</p>
-                </li>
-                <li>
-                    <h2>Titulos e parágrafos</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, exercitationem.</p>
-                </li>
-                <li>
-                    <h2>Listas</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, exercitationem.</p>
-                </li>
-                <li>
-                    <h2>Link e Imagens</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, exercitationem.</p>
-                </li>
-                <li>
-                    <h2>Tags estrturais</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, exercitationem.</p>
-                </li>
-                <li>
-                    <h2>Formulários</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, exercitationem.</p>
-                </li>
-                <li>
-                    <h2>CSS</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, exercitationem.</p>
-                </li>
+            <div id="titulo_modulos">
+                <h2>Módulos do curso</h2>
+                <p>There are many reasons to get down and start to get depressed about your situation</p>
+            </div>
+            <ul id="modulos_grid">
+                <div id="grid1">
+                    <li>
+                        <h2>Introdução ao HTML</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, exercitationem.</p>
+                    </li>
+                    <li>
+                        <h2>Estrutura do HTML</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, exercitationem.</p>
+                    </li>
+                </div>
+                <div id="grid2">
+                    <li>
+                        <h2>Titulos e parágrafos</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, exercitationem.</p>
+                    </li>
+                    <li>
+                        <h2>Listas</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, exercitationem.</p>
+                    </li>
+                </div>
+                <div id="grid3">
+                    <li>
+                        <h2>Link e Imagens</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, exercitationem.</p>
+                    </li>
+                    <li>
+                        <h2>Tags estrturais</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, exercitationem.</p>
+                    </li>
+                </div>
+                <div id="grid4">
+                    <li>
+                        <h2>Formulários</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, exercitationem.</p>
+                    </li>
+                    <li>
+                        <h2>CSS</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, exercitationem.</p>
+                    </li>
+                </div>
             </ul>
         </section>
         <section id="planos">
-            <h2>Escolha seu plano</h2>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus, assumenda.</p>
-            <div id="standart">
-                <h2>Standart</h2>
-                <p>Free</p>
-                <ul>
-                    <li>How Hypnosis</li>
-                    <li>Off To See</li>
-                    <li>Learn How</li>
-                    <li>Why Re Invent</li>
-                    <li>Discover Your</li>
-                </ul>
-                <button>Assinar</button>
+            <div id="titulo_planos">
+                <h2>Escolha seu plano</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus, assumenda.</p>
             </div>
-            <div id="individual">
-                <h2>individual</h2>
-                <p>R$ 29,90</p>
-                <ul>
-                    <li>How Hypnosis</li>
-                    <li>Off To See</li>
-                    <li>Learn How</li>
-                    <li>Why Re Invent</li>
-                    <li>Discover Your</li>
-                </ul>
-                <button>Assinar</button>
-            </div>
-            <div id="team">
-                <h2>Team</h2>
-                <p>R$ 99,90</p>
-                <ul>
-                    <li>How Hypnosis</li>
-                    <li>Off To See</li>
-                    <li>Learn How</li>
-                    <li>Why Re Invent</li>
-                    <li>Discover Your</li>
-                </ul>
-                <button>Assinar</button>
+            <div id="opcoes_planos">
+                <div class="plano">
+                    <div class="titulo_plano">
+                        <h2>Standart</h2>
+                        <p>Free</p>
+                    </div>
+                    <ul class="beneficios_plano">
+                        <li>How Hypnosis</li>
+                        <li>Off To See</li>
+                        <li>Learn How</li>
+                        <li>Why Re Invent</li>
+                        <li>Discover Your</li>
+                    </ul>
+                    <button>Assinar</button>
+                </div>
+                <div class="plano">
+                    <div class="titulo_plano">
+                        <h2>Individual</h2>
+                        <p class="preco">R$ 29,90</p>
+                    </div>
+                    <ul class="beneficios_plano">
+                        <li>How Hypnosis</li>
+                        <li>Off To See</li>
+                        <li>Learn How</li>
+                        <li>Why Re Invent</li>
+                        <li>Discover Your</li>
+                    </ul>
+                    <button>Assinar</button>
+                </div>
+                <div class="plano">
+                    <div class="titulo_plano">
+                        <h2>Team</h2>
+                        <p class="preco">R$ 99,90</p>
+                    </div>
+                    <ul class="beneficios_plano">
+                        <li>How Hypnosis</li>
+                        <li>Off To See</li>
+                        <li>Learn How</li>
+                        <li>Why Re Invent</li>
+                        <li>Discover Your</li>
+                    </ul>
+                    <button>Assinar</button>
+                </div>
             </div>
         </section>
         <section id="right_path">
             <div id="interesse">
                 <p>Tem interesse em aprender HTML e CSS de forma direta? Basta acessar nosso curso ou clique em preview
-                    para ter acesso ao teste;</p>
-                <button>Acessar</button>
-                <button>Preview</button>
+                    para ter acesso ao teste.</p>
+                <div id="interesse_button">
+                    <button>Acessar</button>
+                    <button>Preview</button>
+                </div>
             </div>
             <div id="path">
-                <div id="choose_right_path">
+                <div id="imagem_right_path">
                     <img src="assets/homem no tablet.jpg" alt="Descrição da imagem de interesse.">
+                </div>
+                <div id="choose_right_path">
+                    <p id="trends">TRENDS</p>
                     <h2>Choosing The Right Path</h2>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea illo magnam laudantium at quod
-                        porro. Saepe rem culpa quia veniam!</p>
+                    <p id="right_path_text">There are many reasons to get down and start to get depressed about your situation. There are many reasons to get down and start to get. There are many reasons to get down and start to get depressed about your situation.</p>
                 </div>
             </div>
         </section>
         <section id="nosso_time">
             <div id="nossotime_header">
                 <h2>Nosso Time</h2>
-                <p>Lorem ipsum dolor sit amet.</p>
+                <p>There are many reasons to get down and start to get depressed about your situation.</p>
             </div>
             <div id="time">
                 <div id="membro_1">
                     <img src="assets/Emerson Santos.jpg" alt="Emerson Santos">
-                    <h2>Emerson Santos</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, aliquid!</p>
                 </div>
                 <div id="membro_2">
                     <img src="assets/Alan Silva.jpg" alt="Alan Silva">
@@ -143,7 +172,7 @@
             </div>
         </section>
         <article>
-            <p>" HTML é a espinha dorsal da internet, o alicerce invisível de cada página, que dá forma às ideias e
+            <p>" <strong>HTML</strong> é a espinha dorsal da internet, o alicerce invisível de cada página, que dá forma às ideias e
                 conecta o mundo digital. "
         </article>
     </main>
